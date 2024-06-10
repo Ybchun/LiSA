@@ -1,0 +1,34 @@
+DATA:
+  data_name: NCLT
+  data_root: /data/ybc # Fill in the data path
+  fea_dim: 3
+  max_volume_space: [60, 60, 6]
+  min_volume_space: [-60, -60, -2]
+  # 0.25
+  spatial_shape: [480, 480, 32]
+
+TRAIN:
+  # arch
+  arch: LiSA
+  input_c: 3
+  output_c: 3
+  scale_list: [2, 4, 8]
+  layers: [64, 128, 128, 256, 256, 512, 512, 512, 4096, 4096]
+  att_dim: 128
+
+  # training
+  gpu_id: 0
+  workers: 4  # data loader workers
+  batch_size: 50 # batch size for training
+  batch_size_val: 50  # batch size for validation during training, memory and speed tradeoff
+  base_lr: 0.001
+  decay_step: 600
+  epochs: 50
+  start_epoch: 0
+  momentum: 0.9
+
+  manual_seed: 777
+  save_path: /home/sxl/ybc/LiSA-spconv/log_NCLT/
+  weight:  # path to initial weight (default: none)
+  resume: /home/sxl/ybc/LiSA-spconv/log_NCLT/
+  threshold: 1.4

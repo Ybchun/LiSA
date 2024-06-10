@@ -1,0 +1,6 @@
+*.pyc
+*.tar
+.vscode
+output
+build
+log*
