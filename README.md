@@ -2,6 +2,9 @@
   <h2 align="center">LiSA: LiDAR Localization with Semantic Awareness</h2>
   <h3 align="center">CVPR 2024 Highlight</h3>
 
+<div align="center">
+
+
 <a alighn="center" href="https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_LiSA_LiDAR_Localization_with_Semantic_Awareness_CVPR_2024_paper.pdf"><img src='https://img.shields.io/badge/CVF-Paper-blue' alt='Paper PDF'></a>
 </p>
 
@@ -10,7 +13,7 @@
         <img src="img/trajectory_all_small.gif" alt="Description" width="400"/>
     </tr>
   </table>
-
+</div>
 
 ## ⚙️ Environment
 
