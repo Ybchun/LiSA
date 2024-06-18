@@ -99,7 +99,7 @@ python test.py
 
 ## 🤗 Model zoo
 
-The models of SGLoc on Oxford, QEOxford, and NCLT can be downloaded [here](https://drive.google.com/drive/folders/1SjFZehQnAMiMLPi1UTGtIxM4JG-T9dO2?usp=sharing).
+The models of LiSA on Oxford, QEOxford, and NCLT can be downloaded [here](https://drive.google.com/drive/folders/1SjFZehQnAMiMLPi1UTGtIxM4JG-T9dO2?usp=sharing).
 
 ## 🙏 Acknowledgements
 
